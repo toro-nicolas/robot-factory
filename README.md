@@ -51,6 +51,13 @@ If you discover a **problem** or an **error**, don't hesitate to **create an iss
 
 
 ### Tests and code coverage
+To check that our Robot Factory is **perfect**, we've created a **tester**.  
+It will **convert many robots/champions** with our robots factory and the reference one and **check if there's a difference**.
+To run the tester, execute this command :
+```sh
+./tester.sh
+```
+
 **Unit tests** were performed using [criterion](https://criterion.readthedocs.io/en/master/intro.html).  
 In this project, **only** the **library code is covered**.
 Unit tests are still to be performed, but a large part of the code is already covered.

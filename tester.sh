@@ -4,8 +4,8 @@
 champion_dir="champion"
 
 # Vérifier si les executables existent
-if [ ! -e "bin/asm" ] || [ ! -e "asm" ]; then
-    echo "asm or bin/asm not found"
+if [ ! -e "bonus/binaries/asm" ] || [ ! -e "asm" ]; then
+    echo "asm or bonus/binaries/asm not found"
     exit 1
 fi
 
@@ -16,7 +16,7 @@ find champion -type f -name "*.s" | while read -r file; do
     filename_no_ext="${filename%.*}"
 
     # Exécuter le binaire de référence
-    bin/asm "$file"
+    bonus/binaries/asm "$file"
     # Vérifier si le fichier .cor généré par le binaire de référence existe
     if [ -e "$filename_no_ext.cor" ]; then
         # Renommer le fichier .cor généré par le binaire de référence

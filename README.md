@@ -5,7 +5,6 @@
 - [Usage](https://github.com/toro-nicolas/robot-factory/blob/main/README.md#usage-%EF%B8%8F)
 - [Result](https://github.com/toro-nicolas/robot-factory/blob/main/README.md#result-)
 - [Compilation](https://github.com/toro-nicolas/robot-factory/blob/main/README.md#compilation-%EF%B8%8F)
-- [Documentation](https://github.com/toro-nicolas/robot-factory/blob/main/README.md#documentation-)
 - [Code mandatory](https://github.com/toro-nicolas/robot-factory/blob/main/README.md#code-mandatory-)
 - [What's next ?](https://github.com/toro-nicolas/robot-factory/blob/main/README.md#whats-next--)
 - [Contributors](https://github.com/toro-nicolas/robot-factory/blob/main/README.md#contributors-)
